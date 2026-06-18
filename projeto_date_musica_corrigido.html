@@ -118,6 +118,9 @@ if(!musica){alert('Áudio não encontrado');return;}
 musica.volume=1;
 musica.play().catch(err=>alert('Erro ao tocar música. Verifique se musica.mp3 está na mesma pasta do HTML.'));
 }); }
+    <button onclick="document.getElementById('musica').play()">
+TESTE MÚSICA
+</button>
     function aceitou(){
       tocarMusica();
       document.getElementById('msg').style.display='block';
